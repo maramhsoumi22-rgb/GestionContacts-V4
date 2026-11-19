@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Gestion des contacts V4</string>
+    <string name="titre_liste">Contacts SQLite</string>
+    <string name="titre_detail">Fiche Contact</string>
+    <string name="titre_nouveau">Nouveau Contact</string>
+    <string name="titre_carte">Position Géographique</string>
+    <string name="titre_parametres">Préférences Utilisateur</string>
+
+    <string name="action_parametres">Paramètres</string>
+    <string name="hint_recherche">Rechercher par nom, prénom ou tél…</string>
+    <string name="aucun_contact">Aucun contact enregistré dans la base.</string>
+    <string name="aucun_contact_filtre">Aucun contact ne correspond à la recherche.</string>
+
+    <!-- Formulaire -->
+    <string name="label_nom">Nom *</string>
+    <string name="label_prenom">Prénom *</string>
+    <string name="label_telephone">Téléphone *</string>
+    <string name="label_email">Adresse e-mail</string>
+    <string name="label_latitude">Latitude (-90 à 90)</string>
+    <string name="label_longitude">Longitude (-180 à 180)</string>
+
+    <!-- Boutons -->
+    <string name="btn_appeler">Appeler</string>
+    <string name="btn_email">E-mail</string>
+    <string name="btn_voir_carte">Voir sur la carte</string>
+    <string name="btn_choisir_photo">Galerie</string>
+    <string name="btn_prendre_photo">Caméra</string>
+    <string name="btn_annuler">Annuler</string>
+    <string name="btn_enregistrer">Enregistrer</string>
+    <string name="btn_supprimer">Supprimer</string>
+    <string name="btn_retour">Retour</string>
+
+    <!-- Dialogues et messages -->
+    <string name="confirm_suppression_titre">Suppression du contact</string>
+    <string name="confirm_suppression_message">Êtes-vous sûr de vouloir supprimer définitivement ce contact de la base SQLite ?</string>
+    <string name="action_oui">Oui, supprimer</string>
+    <string name="action_non">Annuler</string>
+    <string name="contact_supprime">Contact supprimé avec succès.</string>
+    <string name="contact_enregistre">Contact enregistré en base SQLite.</string>
+    <string name="champ_obligatoire">Champ obligatoire manquant.</string>
+    <string name="erreur_coordonnees_absentes">Ce contact ne dispose pas de coordonnées GPS.</string>
+    <string name="erreur_coordonnees_invalides">Coordonnées GPS hors limites (-90..90, -180..180).</string>
+    <string name="erreur_aucune_app">Aucune application compatible trouvée sur cet appareil.</string>
+</resources>
